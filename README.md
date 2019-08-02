@@ -16,3 +16,7 @@ groupadd grupo
 sudo useradd -m -g grupo_ -s /bin/bash usuario
 passwd usuario
 ```
+Encontar archivo de mas de 100M
+```
+find . -type f -size +100M -ls
+```
