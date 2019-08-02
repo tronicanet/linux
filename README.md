@@ -20,3 +20,7 @@ Encontar archivo de mas de 100M
 ```
 find . -type f -size +100M -ls
 ```
+Limitar el archivos de carpeta en linux
+```
+https://www.enmimaquinafunciona.com/pregunta/134084/como-puedo-establecer-cuotas-en-carpetas
+```
