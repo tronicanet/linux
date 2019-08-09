@@ -28,3 +28,13 @@ Limitar el archivos de carpeta en linux
 ```
 https://www.enmimaquinafunciona.com/pregunta/134084/como-puedo-establecer-cuotas-en-carpetas
 ```
+# VER PUERTO Y PARA SERVIDOR APACHE
+```
+# Parar apache
+/etc/init.d/apache2 stop
+
+
+
+# ver puertos
+sudo netstat -ntulp | grep 443
+```
