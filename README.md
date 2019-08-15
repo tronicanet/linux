@@ -1,6 +1,11 @@
 # linux
 Comandos basicos
 
+dhcp
+```
+dhcpcd -d eth0
+```
+
 ```
 sudo useradd -m -g Usuarios -G gestion - s /bin/bash usuario
 
